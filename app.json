@@ -1,10 +1,10 @@
 {
   "expo": {
     "name": "Digital Clock",
-    "slug": "digital-clock",
+    "slug": "digi-app",
     "version": "1.0.0",
     "orientation": "landscape",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "dark",
     "backgroundColor": "#000000",
@@ -16,9 +16,24 @@
       "bundler": "metro",
       "output": "single"
     },
-    "plugins": ["expo-router", "expo-screen-orientation"],
+    "plugins": [
+      "expo-router",
+      "expo-screen-orientation"
+    ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "1b873b59-fc06-4509-8f30-5a68191bd74e"
+      }
+    },
+    "owner": "ndavat",
+    "android": {
+      "package": "com.ndavat.digiapp"
     }
   }
 }
