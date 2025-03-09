@@ -69,6 +69,7 @@ export default function DigitalClock() {
         <Text style={[styles.date, dynamicStyles.date]}>
           {formatDate(date)}
         </Text>
+        <Text>Naksh Davat @2025</Text>
       </Animated.View>
     </View>
   );
