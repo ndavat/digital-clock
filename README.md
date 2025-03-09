@@ -16,6 +16,10 @@ https://www.geeksforgeeks.org/how-to-convert-an-expo-app-to-apk-in-react-native-
 
 https://aabtoapk.online/
 
+claude.ai
+
+https://svgtopng.com/
+
 ### Start the Application
 
 To start the application, use the following command:
