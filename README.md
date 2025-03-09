@@ -27,6 +27,8 @@ To start the application, use the following command:
 ```bash
 npm start
 npm install -g eas-cli
+npx expo export -p web
+npx expo serve
 eas login
 eas init
 eas build:configure
