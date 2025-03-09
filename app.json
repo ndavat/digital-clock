@@ -42,6 +42,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#2C3E50"
       },
+       "icon": "./assets/icon.png",
       "package": "com.ndavat.digiapp"
     }
   }
