@@ -17,12 +17,6 @@
     "ios": {
       "supportsTablet": true
     },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#2C3E50"
-      }
-    },
     "web": {
       "bundler": "metro",
       "output": "single"
@@ -44,6 +38,10 @@
     },
     "owner": "ndavat",
     "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#2C3E50"
+      },
       "package": "com.ndavat.digiapp"
     }
   }
