@@ -60,6 +60,8 @@ export default function DigitalClock() {
     },
   });
 
+  const currentYear = new Date().getFullYear();
+
   return (
     <View style={styles.container}>
       <Animated.View style={[styles.clockContainer, animatedStyle]}>
@@ -69,7 +71,7 @@ export default function DigitalClock() {
         <Text style={[styles.date, dynamicStyles.date]}>
           {formatDate(date)}
         </Text>
-        <Text>Naksh Davat @2025</Text>
+        <Text style={styles.copyright}>Naksh Davat © {currentYear}</Text>
       </Animated.View>
     </View>
   );
@@ -96,5 +98,9 @@ const styles = StyleSheet.create({
     marginTop: 20,
     opacity: 0.7,
     letterSpacing: 1,
+  },
+  copyright: {
+    color: '#fff',
+    marginTop: 10,
   },
 });
