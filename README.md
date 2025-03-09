@@ -28,5 +28,6 @@ eas init
 eas build:configure
 npx expo export --platform web
 eas build --profile development --platform android
+eas build -p android
 npm run android
 
