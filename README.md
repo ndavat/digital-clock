@@ -25,6 +25,7 @@ https://svgtopng.com/
 To start the application, use the following command:
 
 ```bash
+npx expo start // to debug
 npm start
 npm install -g eas-cli
 npx expo export -p web
